@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: rgb(4, 208, 143);
+  height: 100vh;
+}
+#container{
+  border: 1px solid black;
+  height: 50vh;
+  width: 100vh;
+  box-shadow: 2px 5px 10px black;
+  
+}
+#title{
+  font-size: 4rem;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.input-box{
+  width: 10vh;
+  height: 10vh;
+  border: 1px solid black;
+  font-size: 3rem;
+  text-align: center;
+}
+#otpHolder{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 10%;
+}
+.input-box:focus{
+  width: 10vh;
+  height: 10vh;
+  border: 1px solid black;
+  font-size: 3rem;
+  text-align: center;
+  box-shadow: 12px 12px 15px black;
+}
+
+#btnHolder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+#btnHolder >button{
+  font-size: 3rem;
+  border-radius: 10px;
+  background-color: greenyellow;
+}
