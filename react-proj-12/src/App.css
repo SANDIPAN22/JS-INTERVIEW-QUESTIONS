@@ -1,0 +1,49 @@
+#tabs{
+    display: flex;
+    width: 500px;
+    font-size: 1.5rem;
+}
+.tab{
+    border: 1px solid black;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.tab-active{
+    background-color: beige;
+    border: 1px solid black;
+    padding: 1rem;
+    cursor: pointer;
+}
+#current-tab{
+    border: 1px solid black;
+    width: 1000px;
+    height: 600px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    position: absolute;
+}
+.inp-field > input{
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+#action-btns >button{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+#action-btns{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.error-msg{
+    color: red;
+    font-size: 20px;
+}
+#errors-section{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
