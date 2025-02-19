@@ -1,0 +1,30 @@
+:root{
+  background: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#heading{
+  text-align: center;
+  font-family: "Nosifer", serif;
+  font-size: 1.5rem;
+}
+#tasks-container{
+  font-family: "Mansalva", serif;
+}
+
+.task-container{
+  border: 1px solid red;
+  font-size: 2rem;
+  width: 300px;
+  height: 200px;
+  padding: 1rem;
+  background-color: rgb(225, 131, 9);
+  border-radius: 5px;
+  box-shadow: 5px 10px 15px rgba(225, 131, 9, 0.316);
+  position: absolute;
+  cursor: move;
+  user-select: none;
+}
