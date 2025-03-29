@@ -10,7 +10,7 @@ const ModeChanger = () => {
     
     const switchMode = (e) =>{
         if(e.target.checked){
-            const ans = confirm("Do you want to save the changes?")
+            const ans = confirm("Do you want to save the current state?")
             if(!ans){
                 window.location.reload()
                 return
