@@ -1,0 +1,73 @@
+/* Reset margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root{
+
+  color: white;
+}
+
+#canvas{
+  background-color: black;
+  text-align: center;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+#active-canvas{
+  background-color: purple;
+  text-align: center;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+#heading{
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+#input-section{
+  margin: 4rem;
+ 
+}
+#todo-flex{
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+#todo-inp{
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+#todo-btn{
+  width: 5rem;
+  font-size: 1.5rem;
+  
+}
+#display-section{
+  display: flex;
+  justify-content: center;
+}
+#card{
+  border: 1px solid gray;
+  width: 50vw;
+  display: flex;
+  padding: 1rem;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+#mode-changer-section{
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+#mode-changer-box{
+  transform: scale(2); /* Increase size */
+  margin-right: 10px;
+}
