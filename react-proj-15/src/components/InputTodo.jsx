@@ -17,7 +17,7 @@ const InputTodo = () => {
     <>
     <div id="todo-flex">
         <input id="todo-inp" type="text" placeholder='Enter New Task' value={inp} onChange={e=> setInp(e.target.value)}/>
-        <button id="todo-btn" onClick={addNewTodo}>Add</button>
+        <button id="todo-btn" onClick={addNewTodo}>Add</button>     
     </div>
     <p>No Slang Word Please! We are screening 🔍</p>
     </>

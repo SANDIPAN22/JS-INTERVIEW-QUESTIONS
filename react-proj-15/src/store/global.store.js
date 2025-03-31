@@ -32,7 +32,7 @@ const BAD_WORDS = new Set([
 ]);
 
 const censor = (store) => (next) => (action) => {
-  if (action.type.startsWith("todo")) {
+  if (action.type.startsWith("todo/addTodo")) {
     const bad = action.payload.split(" ").filter((w) => BAD_WORDS.has(w));
     if (bad.length) {
       alert("Do not use bad word !! 🤬");

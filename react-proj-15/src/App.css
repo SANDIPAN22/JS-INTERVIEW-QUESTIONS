@@ -71,3 +71,12 @@
   transform: scale(2); /* Increase size */
   margin-right: 10px;
 }
+
+#web-icon{
+  position: fixed;
+  bottom: 20px;
+  left: 10px;
+  font-size: 4rem;
+  cursor: pointer;
+  opacity: 50%;
+}
